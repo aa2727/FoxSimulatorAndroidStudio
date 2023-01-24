@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fox_background">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="32dp"
+        android:fontFamily="cursive"
+        android:padding="8dp"
+        android:text="Animal Shop"
+        android:textColor="#eb9807"
+        android:textSize="64sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="386dp"
+        android:layout_height="204dp"
+        android:layout_gravity="center"
+        android:background="@color/black">
+
+    </TextView>
+
+    <view.shopViews.AnimalIconView
+        android:id="@+id/foxIcon"
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="280dp"
+        android:layout_marginLeft="30dp"/>
+
+    <view.shopViews.AnimalIconView
+        android:id="@+id/rabbitIcon"
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="280dp"
+        android:layout_marginLeft="80dp"/>
+
+
+</FrameLayout>

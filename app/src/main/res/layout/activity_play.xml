@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fox_background"
+    android:orientation="vertical"
+    tools:context="activity.PlayActivity">
+
+    <view
+        android:id="@+id/viewScore"
+        class="view.ViewScore"
+        android:layout_width="231dp"
+        android:layout_height="59dp" />
+
+    <view
+        android:id="@+id/viewBestScore"
+        class="view.ViewBestScore"
+        android:layout_width="231dp"
+        android:layout_height="66dp" />
+
+    <view
+        android:id="@+id/viewMoney"
+        class="view.ViewMoneyPlay"
+        android:layout_width="158dp"
+        android:layout_height="44dp"/>
+
+
+    <view
+        android:id="@+id/viewMap"
+        class="view.ViewMap"
+        android:layout_width="383dp"
+        android:layout_height="392dp"
+        android:layout_gravity="center_horizontal"/>
+
+    <view
+        class="view.ViewToPlace"
+        android:id="@+id/viewPlace"
+        android:layout_width="180dp"
+        android:layout_height="47dp"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:id="@+id/runButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="8dp"
+        android:padding="8dp"
+        android:fontFamily="serif"
+        android:textSize="16sp"
+        android:text="Lancer Animaux"
+/>
+
+</LinearLayout>
